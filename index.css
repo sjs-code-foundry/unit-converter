@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#widget {
+    margin: 126px 76px;
+    background-color: #F4F4F4;
+    width: 550px;
+    height: 729px;
+}
+
+#input-area {
+    width: inherit;
+    height: 285px;
+    background-color: #6943FF;
+}
+
+#conv-area {
+    background-color: #F4F4F4;
+    margin: 36px 25px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.convert {
+    background-color: #FFFFFF;
+    width: inherit;
+    height: 108.57px;
+    margin-bottom: 23.43px;
+}
+
+/* Editing Borders */
+/*
+#widget {
+    border: 1px dotted red;
+}
+
+#input-area {
+    border: 1px dotted red;
+}
+
+#conv-area {
+    border: 1px dotted red;
+}
+
+.convert {
+    border: 1px dotted red;
+}
